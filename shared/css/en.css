@@ -1,0 +1,82 @@
+body , a ,p , dt , dd , h1 , h2 , h3 , h4 , span{
+	letter-spacing:0 !important;
+}
+header .header .left dl dd .tel:before {
+    left: 23px;
+}
+
+header #belt_fixed {
+	/*left: 50vw;
+	right:0;
+width:55vw;*/
+	padding-left: 20px;
+}
+header #belt_fixed:before {
+}
+
+header #belt_fixed .pc_view nav a {
+	font-size: 13px !important;
+	margin-right: 20px;
+}
+
+header #belt_fixed .row .text {
+	width: 160px;
+}
+header #belt_fixed .row .group_tel {
+	width: 220px;
+}
+header #belt_fixed .row .btn {
+	width: 238px;
+    margin-right: 15px;
+}
+@media screen and (max-width: 1720px) {
+	/*header #belt_fixed {
+		left: 40vw;
+		width:60vw;
+	}*/
+}
+@media screen and (max-width: 1400px) {
+	/*header #belt_fixed {
+		left: 20vw;
+		width:80vw;
+	}*/
+}
+
+
+header .f_fixed .group_tel .before_tel {
+		/*font-size: 1.5vw;*/
+}
+header .f_fixed .text {
+		font-size: 2vw;
+	
+}
+header .f_fixed .btn {
+		font-size: 1.8vw;
+}
+
+
+
+@media screen and (max-width: 999px){
+#sec1 .set1 .text .group_list .tit dt {
+    line-height: 25px;
+}
+header .f_fixed .btn {
+    height: auto;
+}
+header .f_fixed .btn a {
+    line-height: 1.25em;
+	font-size:2.8vw;
+}
+}
+
+#sec2 .text h2 {
+	font-size: 30px;
+    width: 100%;
+}
+#sec2 .text h3 {
+	font-size: 20px;
+    width: 100%;
+}
+
+
+
